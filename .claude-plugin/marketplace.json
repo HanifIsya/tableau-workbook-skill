@@ -1,0 +1,43 @@
+{
+  "name": "hanifisya-tableau",
+  "owner": {
+    "name": "Hanif Isya Annafi",
+    "email": "hanifisya.annafi02@gmail.com",
+    "url": "https://github.com/HanifIsya"
+  },
+  "metadata": {
+    "description": "Tableau workbook editing tools",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "tableau-workbook-skill",
+      "source": "./",
+      "description": "Edit Tableau .twb/.twbx workbooks programmatically with Python and lxml. Adds and removes worksheets and dashboards, fixes broken hyper extracts, and verifies the workbook actually opens in Tableau.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Hanif Isya Annafi",
+        "email": "hanifisya.annafi02@gmail.com",
+        "url": "https://github.com/HanifIsya"
+      },
+      "homepage": "https://github.com/HanifIsya/tableau-workbook-skill",
+      "repository": "https://github.com/HanifIsya/tableau-workbook-skill",
+      "license": "MIT",
+      "keywords": [
+        "tableau",
+        "twb",
+        "twbx",
+        "workbook",
+        "dashboard",
+        "lxml"
+      ],
+      "category": "data-visualization",
+      "tags": [
+        "tableau",
+        "workbook",
+        "xml",
+        "dashboards"
+      ]
+    }
+  ]
+}

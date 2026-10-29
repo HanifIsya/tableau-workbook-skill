@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Tableau workbooks and extracts — these are user data, never commit them
+*.twb
+*.twbx
+*.hyper
+*.tds
+*.tdsx
+*.xls
+*.xlsx
+*.csv
+
+# Local artifacts
+backups/
+scratch/
+*.bak
+*.log
+hyperd.log
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

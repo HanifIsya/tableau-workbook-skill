@@ -1,0 +1,39 @@
+{
+  "name": "tableau-workbook-skill",
+  "displayName": "Tableau Workbook Editor",
+  "version": "1.0.0",
+  "description": "Edit Tableau .twb/.twbx workbooks programmatically with Python and lxml. Adds and removes worksheets and dashboards, fixes broken hyper extracts, and verifies the workbook actually opens in Tableau.",
+  "author": {
+    "name": "Hanif Isya Annafi",
+    "email": "hanifisya.annafi02@gmail.com",
+    "url": "https://github.com/HanifIsya"
+  },
+  "homepage": "https://github.com/HanifIsya/tableau-workbook-skill",
+  "repository": "https://github.com/HanifIsya/tableau-workbook-skill",
+  "license": "MIT",
+  "keywords": [
+    "tableau",
+    "twb",
+    "twbx",
+    "workbook",
+    "dashboard",
+    "lxml",
+    "hyper",
+    "visualization"
+  ],
+  "defaultEnabled": true,
+  "userConfig": {
+    "tableau_public_exe": {
+      "type": "string",
+      "title": "Tableau Public executable",
+      "description": "Full path to tabpublic.exe, used by the verification harness to confirm a workbook opens. Leave empty to auto-detect.",
+      "default": ""
+    },
+    "tableau_log_path": {
+      "type": "string",
+      "title": "Tableau log file",
+      "description": "Full path to the Tableau log.txt used by the verification harness. Leave empty to auto-detect.",
+      "default": ""
+    }
+  }
+}
